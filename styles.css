@@ -1,0 +1,74 @@
+:root {
+    background-color: #202020;
+}
+
+.base {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: calc(min(100vw / 0.8, 100vh));
+    aspect-ratio: 0.8;
+}
+
+.menuTopBar {
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    width: 80%;
+    height: 20%;
+    background-color: #808080;
+    z-index: 1;
+}
+
+.menuTopLeftButton {
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    width: 35%;
+    height: 20%;
+    background-color: #808080;
+    z-index: 1;
+}
+
+.menuTopRightButton {
+    position: absolute;
+    left: 55%;
+    top: 30%;
+    width: 35%;
+    height: 20%;
+    background-color: #808080;
+    z-index: 1;
+}
+
+.menuBottomLeftButton {
+    position: absolute;
+    left: 10%;
+    top: 55%;
+    width: 35%;
+    height: 20%;
+    background-color: #808080;
+    z-index: 1;
+}
+
+.menuBottomRightButton {
+    position: absolute;
+    left: 55%;
+    top: 55%;
+    width: 35%;
+    height: 20%;
+    background-color: #808080;
+    z-index: 1;
+}
+
+.menuBottomBar {
+    position: absolute;
+    left: 10%;
+    top: 80%;
+    width: 80%;
+    height: 15%;
+    background-color: #808080;
+    z-index: 1;
+}
